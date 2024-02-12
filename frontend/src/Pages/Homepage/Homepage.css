@@ -1,0 +1,27 @@
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-container:hover .controls {
+  opacity: 1; /* Show buttons on hover */
+}
+.slider-container:hover .dots {
+  opacity: 1; /*The CSS you provided is setting the 
+  opacity of elements with the class "dots" to 1 when 
+  a parent element with the class "slider-container" is being hovered over.*/
+}
+
+.controls button {
+  cursor: pointer;
+  padding: 8px;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 50%;
+
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}

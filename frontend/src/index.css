@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea {
+  @apply p-2 w-full border rounded-lg mb-3;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
